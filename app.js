@@ -6,6 +6,7 @@ import errorHandlerMiddleware from './middlewares/error-handler.middleware.js';
 const app = express();
 const PORT = 3000;
 
+// mongoose를 이용해서, MongoDB와 연결한다.
 connect();
 
 // Express에서 req.body에 접근하여 body 데이터를 사용할 수 있도록 설정합니다.
